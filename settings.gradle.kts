@@ -20,4 +20,14 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Campang"
+
 include(":app")
+include(":benchmark")
+include(":feature")
+include(":lint")
+include(":syns")
+include(":syns:syns-test")
+include(":syns:work")
+include(":core")
+include(":build-logic")
+include(":build-logic:convention")
